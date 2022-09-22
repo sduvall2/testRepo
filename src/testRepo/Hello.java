@@ -24,5 +24,6 @@ public class Hello {
         System.out.println("Robert's Change.");
         System.out.println("Robert's Next Change.");
         hello.sayHello("world!");
+        System.out.println("Bye");
     }
 }
