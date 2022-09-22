@@ -12,6 +12,7 @@ public class Hello {
 
     public void sayHello (String name) {
         System.out.println("Hello " + name);
+        System.out.println("This is Shannon's new work.  Shouldn't be in main yet.");
     }
 
     /**
