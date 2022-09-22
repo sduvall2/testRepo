@@ -1,3 +1,4 @@
+package testRepo;
 /**
  * Feel free to completely change this code or delete it entirely. 
  */
@@ -21,6 +22,6 @@ public class Hello {
 
         System.out.println("Version: " + hello.getVersion());
         System.out.println("Robert's Change.");
-        System.out.println(hello.sayHello("world!"));
+        hello.sayHello("world!");
     }
 }
