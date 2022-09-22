@@ -7,7 +7,7 @@ public class Hello {
      * A method to test (and a joke :).
      */
     public double getVersion () {
-        return 0.001;
+        return 0.002;  // conflict.
     }
 
     public void sayHello (String name) {
