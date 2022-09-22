@@ -9,10 +9,17 @@ public class Hello {
         return 0.001;
     }
 
+    public void sayHello (String name) {
+        System.out.println("Hello " + name);
+    }
+
     /**
      * Start of the program.
      */
     public static void main (String[] args) {
-        System.out.println("Hello world");
+        Hello hello = new Hello();
+
+        System.out.println("Version: " + hello.getVersion());
+        System.out.println(hello.sayHello("world!"));
     }
 }
